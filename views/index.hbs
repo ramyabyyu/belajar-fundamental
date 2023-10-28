@@ -1,0 +1,25 @@
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>Belajar HBS</title>
+    </head>
+    <style>
+        p { padding: 0; margin: 0; }
+    </style>
+    <body>
+        <h1>Belajar HBS</h1>
+
+        <a href='/upload-project' style='margin-bottom: 5px;'>Tambah projek</a>
+
+        {{#each projects}}
+            <div
+                style='margin-bottom: 10px; border: 1px solid red; padding: 5px; border-radius: 8px;'
+            >
+                <h3 style='margin: 0'>{{this.id}}. {{this.name}}</h3>
+                <p>{{this.startDate}}</p>
+                <p>{{this.endDate}}</p>
+            </div>
+        {{/each}}
+    </body>
+</html>

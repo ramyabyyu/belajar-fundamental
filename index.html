@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Belajar</title>
+    </head>
+    <body>
+        <div>
+            <p id="pNama"></p>
+            <p id="pPassword"></p>
+        </div>
+        <form action="" style="margin-top: 20px">
+            <div>
+                <label for="name">Nama</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+                <button type="button" onclick="lihatPassword()">Lihat</button>
+            </div>
+            <div>
+                <input type="checkbox" id="cek" />
+                <label for="cek">Cek</label>
+            </div>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </body>
+    <script src="./app.js"></script>
+</html>

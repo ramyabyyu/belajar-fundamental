@@ -1,0 +1,5 @@
+Cara membuat projek node js
+- npm init / npm init --y
+- main = utama
+- install package = express
+- npm install / npm i
